@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap');
 
 body {
   background-color: #e2e2e2;
@@ -22,10 +22,37 @@ header {
   color: #cfabcd;
 }
 
-main {
-  display: flex;
-}
+.corpo {}
 
 .img {
-  width: 30%;
+  width: 20%;
+  margin: auto;
+  display: block;
+}
+
+.accordion {
+  flex-direction: column;
+  text-align: center;
+}
+
+.question {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.7rem;
+}
+
+.answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+  padding: 0% 10% 0% 10%;
+}
+
+.rodape {
+  background-color: #76777c;
+  box-sizing: border-box;
+}
+
+.rodape-img {
+  padding: 20px;
+  text-decoration: none;
+  color: #cfabcd;
 }
